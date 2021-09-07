@@ -1,0 +1,45 @@
+
+.hrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.hcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    border-color: #000000;
+    border-width: 5px;
+    
+}
+
+.headermain {
+    background-color: #FFFFFF;
+    border-color: #000000;
+    border-width: 5px;
+    border-style: solid;
+    color: #000000;
+    font-weight: bold;
+    width: 1000px;
+    height: 1000px;
+}
+
+@media print {
+    @page {size: A4 portrait}
+    body {
+        margin: 0in 0in 0in 0in;
+        
+    }
+    .headermain {
+        background-color: #FFFFFF;
+        border-color: #000000;
+        border-width: 5px;
+        border-style: solid;
+        color: #000000;
+        font-weight: bold;
+        width: 1000px;
+        height: 1000px;
+    }
+}
